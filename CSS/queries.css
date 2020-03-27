@@ -1,0 +1,71 @@
+/*======big tablet from 1024px to 1200px ===*/
+@media only screen and (max-width:1200px) {
+}
+
+
+
+/*====== Small tablets to big tablet from 768px to 1023px ===*/
+@media only screen and (max-width:1023px) {
+
+}
+
+
+
+
+
+/*====== Small iphones to tablets from 481px to 767px ===*/
+@media only screen and (max-width:767px) {
+
+h2 {
+  font-size: 10vmin;
+}
+  
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  text-align: center;
+}
+
+footer img {
+  margin: 0 10px;
+  cursor: pointer;
+  width: 7%;
+  height: 7%;
+  
+}
+  
+}
+
+
+
+/*====== Small iphones from 0 to 480px ===*/
+@media only screen and (max-width:480px) {
+  
+h2 {
+  font-size: 10vmin;
+}
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  text-align: center;
+}
+  
+footer img {
+  margin: 0 10px;
+  cursor: pointer;
+  width: 7%;
+  height: 7%;
+  
+}
+  
+}
+
+
+
